@@ -1,6 +1,6 @@
 # Accidents Data Analysis using Spark
 ## Introduction
-Accidents are one of the major cause of deaths in the United States. Every year over a million people die due to accidents while driving. The constant increase in the population increased the necessity of having multiple vehicles per family, thereby increasing the chances of accidents. The surge in population and the proportional increase in the self-owned vehicle count is a measure to reckon. In the following project, we take different publicly available data sources in different formats and apply 
+Accidents are one of the major cause of deaths in the United States. Every year over a million people die due to accidents. The constant increase in the population increased the necessity of having multiple vehicles per family, thereby increasing the chances of accidents. The surge in population and the proportional increase in the self-owned vehicle count is a measure to reckon. In the following project, we take different publicly available data sources in different formats and apply 
 
 ## Datasets
 1. **[Accidents Dataset](https://www.kaggle.com/sobhanmoosavi/us-accidents)**: This kaggle dataset is the source of Accidents data of US. This data provides the key attributes of accidents with timestamps ranging from 2015 to 2019. The accidents are listed at the grain of street thus have a detailed location information. This dataset is downloaded and uploaded to S3 bucket from where it is read in the form of CSV. This data has a total of _2.25 million_ records.
